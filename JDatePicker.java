@@ -1,6 +1,6 @@
 The initial DatePicker was designed by outside sources. 
 I have rebuild it, so that it can be put into NetBeans (or possibly other IDE) and then one can simply
-drag and drop in onto the form (jPanel).
+drag and drop it onto the form (jPanel).
 
 You will need to compile it, and then put the generated jar file on your computer where you indend to 
 store your own java class library. You will also need the jdatepicker-1.3.2.jar and include this into your
