@@ -21,7 +21,7 @@ One of the features is, that you can set the minimum and maximum date permissibl
 that is outside this range, it will automatically reset to the min or max date. The user can also set up if this
 will give an Error Message if a date has been selected outside the given range.
 
-This modified date picker privides a large range of output option. Date can be out putted in Date or as a String 
+This modified date picker provides a large range of output option. Date can be out putted in Date or as a String 
 value and the format of this String (for example yyyy-MM-dd, dd/MM/yyyy) can be set by the user. This is particularly
 handy if using a SQLite database and you use the format yyyy-MM-dd so that you can run queries such as:
 SELECT SUM(TAXAMOUNT) AS TOTALTAX FROM INCOME WHERE (DATE >= '2015-01-01') AND (DATE <= '2015-12-31').
@@ -30,9 +30,9 @@ Copy the codes into your NetBeans IDE, make sure you include the jdatepicker-1.3
 file as a NetBeans JavaClass Library (it has and needs no public void main entrance point) and build the jar file.
 Copy the built jar file to the directory of your computer where you store your additional java libraries and you are 
 ready to put it onto your NetBeans IDE Pallette. You can create you own space on the pallette and call is something
-like My Components. You can then open an existing java form project and start one, and you must then add the generated
+like My Components. You can then open an existing java form project or start one, and you must then add the generated
 jar file plus the jdatepicker-1.3.2.jar to your library. If you don't add the jdatepicker-1.3.2.jar to your library as
-well, the compiler will spit the dummy.
+well, the compiler will spit the dummy when you use have dropped this date picker onto your form.
 
 If you have issues you can contact me: wernersa@bigpond.net.au.
 ENJOY! - Werner Sandner
